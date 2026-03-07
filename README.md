@@ -12,4 +12,6 @@ USB: USB 2.0 Hub 识别成功
 GPU: Mali GPU 初始化完成  
 NPU: 神经网络处理器初始化完成  
 音频: RK809 声卡初始化成功（耳机检测有小问题）  
-触摸: Goodix 触摸屏识别成功  
+触摸: Goodix 触摸屏识别成功 
+救砖过程  
+MiniLoaderAll.bin来源于互联网
