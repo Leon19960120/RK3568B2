@@ -15,4 +15,6 @@ NPU: 神经网络处理器初始化完成
 触摸: Goodix 触摸屏识别成功 
 救砖过程  
 MiniLoaderAll.bin来源于互联网
-https://img.alicdn.com/bao/uploaded/i3/O1CN01t8N4aa2FbniPtguiI~livephoto~_!!4611686018427383427-53-fleamarket.heic_790x10000Q90.jpg_.webp
+
+<img width="790" height="1054" alt="image" src="https://github.com/user-attachments/assets/461af15d-c711-42f9-ae41-8cf7da03591c" />
+
