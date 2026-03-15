@@ -1,4 +1,7 @@
-# Gecedu RK3568B2
+# Gecedu RK3568B2 #
+## 2026.3.15 ##
+上传rockchip_test
+
 粤嵌开发板  
 Machine model: Rockchip RK3568 EVB1 DDR4 V10 Board  
 一、核心硬件信息
