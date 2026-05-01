@@ -1,14 +1,28 @@
-# Gecedu RK3568B2 #
+# GecEdu RK3568 #
 ## 2026.3.15 ##
-上传rockchip_test
+**粤嵌开发板** 底板和核心板组成，还有7寸屏幕。
 
-粤嵌开发板  
-Machine model: Rockchip RK3568 EVB1 DDR4 V10 Board  
-一、核心硬件信息
-SoC: Rockchip RK3568（4 核 Cortex-A55）  
-内存: 约 2GB 
-存储: 14.7GB eMMC（DA2016），分区表正常（p1-p9）  
-内核版本: 4.19.232（编译于 2025 年 8 月 14 日）  
+经拆解与底层验证，硬件实际配置如下：Machine model: Rockchip RK3568 EVB1 DDR4 V10 Board  
 
-<img width="790" height="1054" alt="image" src="https://github.com/user-attachments/assets/461af15d-c711-42f9-ae41-8cf7da03591c" />
+| 组件      | 规格                                | 状态     | 备注                          |
+| :-------- | :---------------------------------- | :------- | :---------------------------- |
+| **SoC**   | Rockchip RK3568                     | ✅ 已验证 | 四核 Cortex-A55               |
+| **RAM**   | 2GB DDR4                            | ✅ 已验证 |                               |
+| **存储**  | 16GB eMMC                           | ✅ 已验证 | 设备节点 `/dev/block/mmcblk2` |
+| **网络**  | 1x 千兆以太网口                     | ✅ 已验证 |                               |
+| **USB**   | 3x usb2.0，1xusb3.0, 1x OTG         | ✅ 已验证 | **OTG 可用于刷机，已绕过**    |
+| **无线**  | Wi-Fi 5                             | ✅ 已验证 | 可搜索网络                    |
+| **视频**  | HDMI                                | ✅ 可用   |                               |
+| **其他**  | 1x MSATA, SIM 卡槽，SD卡槽，CAN接口 | 🔍 待验证 | 功能待驱动验证                |
+| **USART** | 4xUART,1x Debug UART                |          | Debug用于查看串口日志         |
+
+
+
+  ![IMG_2742](E:\20250526HYL\RK3568b2\pig\IMG_2742.JPG)
+
+
+
+
+
+
 
