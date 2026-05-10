@@ -189,3 +189,13 @@ sudo timeout 1 head -c 64 <设备文件> | hexdump -C
 - 你列出的 `/dev` 下设备文件几乎都不适合 `cat`，请按照上述分类使用替代方法。
 
 如果你对某个具体设备（比如 `iio:device0` 或 `rga`）想深入获取状态信息，请告诉我设备名称，我可以给出更精确的命令。
+
+
+
+
+
+```
+Linux version 4.19.232 (gecedu@Gecedu) (gcc version 10.3.1 20210621 (GNU Toolchain for the A-profile Architecture 10.3-2021.07 (arm-10.29)), GNU ld (GNU Toolchain for the A-profile Architecture 10.3-2021.07 (arm-10.29)) 2.36.1.20210621) #5 SMP Thu Aug 14 19:27:53 CST 2025
+
+```
+
