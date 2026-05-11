@@ -22,3 +22,18 @@
 
 出厂开发板系统包含常规的rk356x_demo软件，**`rk356x-demo` 是一个基于 LVGL 的、直接操作帧缓冲 (`/dev/fb0`) 并控制 GPIO 和背光的嵌入式图形程序。**
 
+板子还没sdk资料。
+这有我上传的dtb，不知道还需要什么资料。这个板子和正点原子的RK3568有点像。
+刷入过RK3568-EVB1-V10-BUILDROOT_V1.3.0_20251220的uboot是没问题的。 目前机器的镜像是内核为4.19.232的bulidroot
+CPU：RK3568
+内存：2G
+EMMC硬盘：16G
+网口：千兆
+USB2.0：3个
+
+
+<img width="790" height="1054" alt="Image" src="https://github.com/user-attachments/assets/9295b2e8-55ee-44d7-90a4-553d75318a8a" />
+
+![Image](https://github.com/user-attachments/assets/6646622e-3809-4881-91ae-f4b7b89a9f93)
+
+<img width="790" height="592" alt="Image" src="https://github.com/user-attachments/assets/b8c26d7a-f5f8-4424-ad00-77feb4081ed1" />
